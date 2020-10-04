@@ -7,11 +7,12 @@ $white: #FFFFFF;
 $grey: #54606b;
 $light_grey: #666666;
 
-/*solv Corporate Design */
+/*kara Corporate colours */
 
-$green: #77b800;
-$light_green: #8CCA1D;
-$lime: #C9E399;
+$dark-blue: #203546;
+$light-blue: #00a8cb;
+$creme: #e0f1f4;
+$signal-yellow: #f3ff71;
 
 // Breakpoints
 $bp-small: 48em; // 768px
@@ -104,7 +105,7 @@ a {
 
     &:hover {
         text-decoration: none;
-        color: $green;
+        color: $light-blue;
         @include transition(.4s ease-in-out);
     }
 }

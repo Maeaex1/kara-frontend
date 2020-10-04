@@ -2,12 +2,14 @@
 
 /*Header Section */
 header {
-    position: fixed;
+    position: sticky;
+    top: 0;
     display: block;
     width: 100%;
-    background: $black;
-    padding-left: 20px;
-    padding-right: 20px;
+    background: $dark-blue;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    height: 5rem;
 }
 
 .App {
@@ -16,12 +18,21 @@ header {
 
 .container {
     flex-grow: 1;
-    margin-top: 4rem;
-
 
 }
 
 /* Navbar */
+.cust-navbar {
+    position: relative;
+    display: flex;
+}
+.brand {
+    position: absolute;
+    left: 50%;
+    margin-left: -50px !important;  /* 50% of your logo width */
+    display: block;
+}
+
 .navItem{
     color: $white;
 }
@@ -29,38 +40,25 @@ header {
 #basic-nav-dropdown{
     color: $white;
 }
+#basic-navbar-nav{
+  margin-top: 15px;
+}
 
 .burger-button {
     background-color: $white;
 }
 
 
-/*Showcase */
-.showcase{
-    height: 100vh;
-    padding-top: 10rem;
-    background: $black;
-    color: $white;
-
-
-}
-
-
-.content{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding-bottom: 1rem;
-}
-
 
 
 /* Footer Section*/
 footer {
-    flex-shrink: 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
     height: 140px;
     margin-top: 140px;
-    background: $black;
+    background: $dark-blue;
     color: $white;
     padding-left: 20px;
     padding-right: 20px;
