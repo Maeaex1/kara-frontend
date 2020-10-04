@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-karafrontend-dev-205349-authRole",
+      "UnauthRoleArn": "arn:aws:iam::895235300191:role/amplify-karafrontend-dev-205349-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::895235300191:role/amplify-karafrontend-dev-205349-authRole",
+      "Region": "eu-central-1",
+      "DeploymentBucketName": "amplify-karafrontend-dev-205349-deployment",
+      "UnauthRoleName": "amplify-karafrontend-dev-205349-unauthRole",
+      "StackName": "amplify-karafrontend-dev-205349",
+      "StackId": "arn:aws:cloudformation:eu-central-1:895235300191:stack/amplify-karafrontend-dev-205349/f16b6dc0-0672-11eb-bc22-06a85d409ac4",
+      "AmplifyAppId": "d1w75y7uhls9"
+    }
+  }
+}
